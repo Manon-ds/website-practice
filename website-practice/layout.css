@@ -1,0 +1,338 @@
+.buttons1{
+    display: inline-block;
+    width: 400px;
+    padding: 15px;
+}
+
+.bar{
+    position: sticky;
+    top: 3px;
+}
+
+#app{
+    width: 150px;
+    height: 35px;
+    border: 5px, solid, black;
+    background-color: pink;
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+}
+
+#app:hover{
+    background-color: azure;
+}
+
+#signIn{
+    border: 5px, solid, black;
+    background-color: pink;
+    height: 35px;
+    width: 100px;
+    position: relative;
+    left: 800px;
+    font-size: 20px;
+}
+
+#signIn:hover{
+    background-color: azure;
+}
+
+.line{
+    margin: 10px;
+    z-index: 1;
+}
+
+#home{
+    background-color: pink;
+    border: white;
+    position: relative;
+    left: 125px;
+    font-size: 20px;
+}
+
+#home:hover{
+    background-color: azure;
+}
+
+#news{
+    background-color: pink;
+    border: white;
+    position: relative;
+    left: 325px;
+    font-size: 20px;
+}
+
+#news:hover{
+    background-color: azure;
+}
+
+#updates{
+    background-color: pink;
+    border: white;
+    position: relative;
+    left: 550px;
+    font-size: 20px;
+}
+
+#updates:hover{
+    background-color: azure;
+}
+
+#more{
+    background-color: rgb(255, 192, 203, 1);
+    border: white;
+    position: relative;
+    left: 750px;
+    font-size: 20px;
+}
+
+#more:hover{
+    background-color: azure;
+}
+
+.pink{
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    color: rgb(255, 192, 203)!important;
+    overflow: visible;
+    float: left;
+}
+
+#title{
+    text-align: center;
+    font-size: 35px;
+    width: 600px;
+    border: 3px solid black;
+    position: relative;
+    left: 22%;
+    z-index: -1;
+    background-color: rgb(255, 192, 203, 0.2);
+}
+
+.undertitle{
+    position: sticky;
+    top: 80px;
+}
+
+#img{
+    padding: 50px;
+}
+
+.logo{
+    text-decoration: none;
+    position: relative;
+    left: 375px;
+    top: -10px;
+}
+
+#share{
+    position: relative;
+    left: 775px;
+    top: -25px;
+}
+
+#page{
+    width: 600px;
+    height: 800px;
+    background-color: rgb(255, 192, 203, 0.2);
+    position: relative;
+    left: 22%;
+    z-index: -1;
+}
+
+.lists{
+    border: 3px solid black;
+}
+
+.list{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+#appa{
+    padding: 30px;
+    margin-top: 10px;
+    position: relative;
+    top: 15px;
+}
+
+.font{
+    font-family: sans-serif, 'Times New Roman';
+    font-style: normal;
+}
+
+.legend{
+    border: 1px solid black;
+    position:relative;
+
+}
+
+.form{
+    width: 200px;
+    position: relative;
+    left: 20%;
+}
+
+.block{
+    position: relative;
+    left: 25%;
+    top: 30px;
+    width: 500px;
+    height: 450px;
+}
+
+.first-name{
+    position: relative;
+    left: 25%;
+
+}
+#first{
+    margin-left: 25%;
+}
+.last-name{
+    position: relative;
+    left: 25%;
+
+}
+#last{
+    margin-left: 25%;
+}
+
+.email{
+    position: relative;
+    left: 25%;
+
+}
+#mail{
+    margin-left: 35%;
+}
+
+.stat-date{
+    white-space: nowrap;
+}
+.status{
+    position: relative;
+    left: 25%;
+    display: inline-block;
+}
+
+#status-label{
+    margin-left: 20%;
+}
+
+#role{
+    display: block;
+}
+
+#date{
+    width: 80px;
+}
+
+#date-label{
+    margin-left: 20%;
+    display: block;
+}
+
+.choose{
+    position:relative;
+    width: 200px;
+}
+
+.radio{
+    position: relative;
+    left: 23%;
+    width: 200px;
+}
+
+#html{
+    border: 0px;
+    width: 12px;
+    height: 12px;
+}
+#css{
+    border: 0px;
+    width: 12px;
+    height: 12px;
+}
+#javascript{
+    border: 0px;
+    width: 12px;
+    height: 12px;
+}
+
+#language{
+    height: 10px;
+    font-size: 11px;
+    position: relative;
+    left: 25%;
+}
+
+.input{
+    width: 200px;
+    font-size: 12px;
+    margin-left: -7px;
+}
+
+.comments{
+    position:relative;
+    left: 25%;
+    padding-top: 5px;
+}
+
+.date{
+    position:relative;
+    left: 25%;
+    display: inline-block;
+}
+
+.checkbox{
+    position:relative;
+    left: 25%;
+    display: inline-block;
+}
+
+#one{
+    display: inline-block;
+    width: 80px;
+    position: relative;
+    top: 10%;
+}
+#two{
+    display: inline-block;
+    width: 80px;
+}
+.box-label{
+    font-size: 12px;
+    position: relative;
+    display: inline;
+}
+
+#signup{
+    display: inline;
+    font-size: small;
+    border: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+#terms{
+    display: inline;
+    border: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.button{
+    position:relative;
+    left: 40%;
+    padding: 10px;
+}
+
+#submit{
+    width: 85px;
+    background-color: white;
+}

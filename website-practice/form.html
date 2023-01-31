@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+    </head>
+    <body>
+        <form action="/form-handling-url" method="post">
+            <fieldset class="block">
+            <legend class="legend font">Add user</legend>
+
+        <div class="form">
+
+            <div class="first-name font">
+                <label class="font" id="first" for="firstName">First name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+
+            <div class="last-name font">
+                <label id="last" for="lastName">Last name</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+
+            <div class="email font">
+                <label id="mail" for="email">Email</label>
+                <input type="email" id="email" name="email_address">
+            </div>
+
+            <div class="stat-date font">
+            <div class="status">
+                <label id="status-label" for="role">Status</label>
+                <select id="role" name="user_role_name">
+                <option value="student">Student</option>
+                <option value="instructor">Instructor</option>
+                <option value="guest">Guest</option>
+                </select>
+            </div>
+
+            <div class="date font">
+                <label id="date-label" for="date">Date</label>
+                <input type="date" id="date" name="date">
+            </div>
+            </div>
+            <div class="choose font">
+                <p id="language">Choose your favorite Web language:</p>
+                <input class="radio" type="radio" id="html" name="fav_language" value="HTML">
+                <label class="input radio" for="html">HTML</label>
+                <input class="radio" type="radio" id="css" name="fav_language" value="CSS">
+                <label  class="input radio" for="css">CSS</label>
+                <input class="radio" type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label class="input radio" for="javascript">JavaScript</label>
+            </div>
+
+            <div class="comments font">
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+            <div class="checkbox font">
+                <div id="one">
+                <input type="checkbox" id="signup" name="signup" value="Signup">
+                <label class="box-label" for="signup">Sign up for news letter</label>
+                </div>
+                <div id="two">
+                <input type="checkbox" id="terms" name="terms" value="Terms">
+                <label class="box-label" for="terms"> Agree to terms</label>
+                </div>
+            </div>
+
+            <div class="button font">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
